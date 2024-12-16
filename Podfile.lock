@@ -1,0 +1,31 @@
+PODS:
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
+  - GooglePlaces (6.2.1)
+  - HDAugmentedReality (3.0.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - HDAugmentedReality (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+
+EXTERNAL SOURCES:
+  HDAugmentedReality:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
+  HDAugmentedReality: ff518e9c08704261b4226ffa820464aa5a9b1626
+
+PODFILE CHECKSUM: 8f38d454189a1526b0c80390221146b201f45391
+
+COCOAPODS: 1.15.2

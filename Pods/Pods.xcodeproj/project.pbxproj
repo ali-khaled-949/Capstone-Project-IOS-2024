@@ -1,0 +1,1519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GooglePlaces;
+			productName = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B76938E13A8B4A2F946AC8BD2883DE7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F905BB861F1C9759BEBA20A2C7ED84E /* CameraView.swift */; };
+		117B80B180B674EADF38DB3B7E1126F0 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3467AB9C675DF5F0293B616A1D9A39 /* TouchView.swift */; };
+		22C4EF2052AD2007E18854ACCFD949FB /* HDAugmentedReality-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C36F23138D5262001219FECC6CDA0C /* HDAugmentedReality-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA6D5200A9CA082C46C6735AEAD2892 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216CA81C668AAA713309DC3287F98C11 /* ARViewController.xib */; };
+		3581C7960AD7BB2E0CC6E4377C3E8142 /* RadarMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8018418A1FF91731170F1EC7E4D56 /* RadarMapView.swift */; };
+		36A10A76847FC3F7F7EE982AB573AE89 /* RadarMapView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F63E6618C68514AEE3F9BFD894FB50F0 /* RadarMapView.xib */; };
+		37A35B6E70FE06C0C9429D093E7FF7AE /* Pods-CarPlayTustin Routes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E78089611A5C3ED354F39E1C43A191 /* Pods-CarPlayTustin Routes-dummy.m */; };
+		5636EB022F2A5A4BA41FC7A8765CF7E3 /* SegmentedIndicatorRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80511A0285444E1525770C24C02AE62C /* SegmentedIndicatorRing.swift */; };
+		583FA6E33E7F0739AB8D12B77D94F09C /* Pods-AdditionalTustin Routes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F582DE68117376C40368FF959DCA3086 /* Pods-AdditionalTustin Routes-dummy.m */; };
+		5C3B0A996DA5606F612B0527A87D280D /* UIView+utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A1094154D82133C7509B00272BC39B /* UIView+utility.swift */; };
+		6108BF1764E5DE9DABF54B876F252356 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8B410C5839F90B51B6BEF83CEE3A2 /* ARConfiguration.swift */; };
+		635E49951ECFCA21563A9C2B64DAD70C /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA0273496B5208CDA712BC7E4223923 /* ARAnnotationView.swift */; };
+		663ABBAAF1378B21FA5068E1A510089F /* RadarMapViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DAAF07A539DDE66A3AED0A2C14E92 /* RadarMapViewSupport.swift */; };
+		6AA8991E9D1A32F1C27C0F642510D6EC /* ARPresenterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8068D5956FE8FCE5DB56E4D879799 /* ARPresenterTransform.swift */; };
+		6D7C882F5FBF90EE57FAF07B033C7155 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD1CB81CACF86F3F1926619E7D726B /* DebugMapViewController.xib */; };
+		70F16AF23F2A03C38429948A22A961EC /* Pods-AdditionalTustin Routes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 675E36DF05CCD0DEB71189997AE1294E /* Pods-AdditionalTustin Routes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A37E0DC0028E131FFD490AAE43CC55 /* ARAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206CE25B800A24823E5AF0F6779CD34 /* ARAccessory.swift */; };
+		781C8F935A6D0A1EA7B1D1AF3F7ECA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7EF355EE0F66489FCF155A36343E5740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C0FC20B5953A7945643535FDA2C2490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C87373F5ED443249E9BEF7A44C9424C /* PreciseIndicatorRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7839DC58A6B4D7FAC7C2CD1D3A96 /* PreciseIndicatorRing.swift */; };
+		8F57765BD7AB61F2A4BBE4DAAFD4987F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		902270B9CE38FEAC406373BFFFED3C17 /* Pods-UIKitTustin Routes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE05C946304F5D9704BCBC746B49A86 /* Pods-UIKitTustin Routes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8E8804E58366F3091F29D94A95CBE8 /* Pods-Titan Routes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F985B64B7D9D6889364D4ADE3A8F7814 /* Pods-Titan Routes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0AA5440E781F8FF76558ADF089D661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5D7C513EA9D998CE29EFC0D925D0579 /* Pods-Titan Routes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A848E98C98E51E0A19B4D4F7EA296C /* Pods-Titan Routes-dummy.m */; };
+		A601D52EF7E1D7F672B26C8581CAE5B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AB7CA7DCD803D59AF5D174C4A44FE5 /* Images.xcassets */; };
+		B1C42BCB8185772B214DC7E445C639A4 /* Pods-CarPlayTustin Routes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1761A126337AFCD3667F1C9C72C76B65 /* Pods-CarPlayTustin Routes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD795A8E67C7A6B6744BFDE17040DB47 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6808B12E1ED3E8B67441A6A226092B /* ARTrackingManager.swift */; };
+		D8CD0F8C3A2762CF7A6898203601A53C /* ARPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22EE66CE4724D8EB5DFBA8EF61D9F7B /* ARPresenter.swift */; };
+		DDDEBBE1F82F14F64C29D4A23C0DDE4E /* Pods-UIKitTustin Routes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740317EB980CA7FFFA15D1D43B543ED5 /* Pods-UIKitTustin Routes-dummy.m */; };
+		E60A475E2E3F3774E78BC459F13F7F94 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D335E3E0335642123E3433720A9E4533 /* ARAnnotation.swift */; };
+		E9BBE97209C24E8B26A27D643117DFA5 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FACEED0FD70C423986C2F888E7BED6D /* ARViewController.swift */; };
+		EE0D29964407334A46714CB56D65F3C0 /* ARMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82C9970EA8B3F6A03712546CEB742A /* ARMath.swift */; };
+		F38CEA0920F0EB89A3EAF7AEBA198902 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1356D949C39D65A1AAFA74D457E334 /* DebugMapViewController.swift */; };
+		F801E38928789417FCF3E1AFA61F4BAA /* HDAugmentedReality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E4665584ADDBDD92FB125EC23E6E36 /* HDAugmentedReality-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186EBDE19C13C04C7EA3F88D741FDC15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB7B74DBC0D96D7F97242370637B8DB;
+			remoteInfo = HDAugmentedReality;
+		};
+		516163825081F90D248548D079DB2195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		704A48BCBFA8D6875ACE942B43A7FD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084EF2649A7A09A609DA25D04F419D6F /* Pods-CarPlayTustin Routes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarPlayTustin Routes.modulemap"; sourceTree = "<group>"; };
+		120D994EDA02D40DE7A892753F03EB27 /* Pods-AdditionalTustin Routes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdditionalTustin Routes.debug.xcconfig"; sourceTree = "<group>"; };
+		12C8018418A1FF91731170F1EC7E4D56 /* RadarMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadarMapView.swift; sourceTree = "<group>"; };
+		1761A126337AFCD3667F1C9C72C76B65 /* Pods-CarPlayTustin Routes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarPlayTustin Routes-umbrella.h"; sourceTree = "<group>"; };
+		18A3110ED1C0CA3AE2B64DE5C2ED24B0 /* HDAugmentedReality.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDAugmentedReality.modulemap; sourceTree = "<group>"; };
+		19E4665584ADDBDD92FB125EC23E6E36 /* HDAugmentedReality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDAugmentedReality-dummy.m"; sourceTree = "<group>"; };
+		1A1356D949C39D65A1AAFA74D457E334 /* DebugMapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		1B299390DDA64D91506BB861BE15EA19 /* Pods-UIKitTustin Routes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIKitTustin Routes"; path = Pods_UIKitTustin_Routes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E61DAB7A21447D0BDC276C5EE707142 /* Pods-UIKitTustin Routes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitTustin Routes-acknowledgements.plist"; sourceTree = "<group>"; };
+		2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDAugmentedReality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		216CA81C668AAA713309DC3287F98C11 /* ARViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ARViewController.xib; path = HDAugmentedReality/Resources/ARViewController.xib; sourceTree = "<group>"; };
+		23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		24DE4B9AC4E34918EC900C22D5610F95 /* Pods-CarPlayTustin Routes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarPlayTustin Routes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DFD1CB81CACF86F3F1926619E7D726B /* DebugMapViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DebugMapViewController.xib; path = HDAugmentedReality/Resources/DebugMapViewController.xib; sourceTree = "<group>"; };
+		3EF70DD649E2E02224EABC41F8D3AD68 /* Pods-CarPlayTustin Routes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarPlayTustin Routes-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F61928426F821A71501620EA0AF6BBC /* Pods-Titan Routes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Titan Routes.release.xcconfig"; sourceTree = "<group>"; };
+		4C82C9970EA8B3F6A03712546CEB742A /* ARMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARMath.swift; sourceTree = "<group>"; };
+		4CE05C946304F5D9704BCBC746B49A86 /* Pods-UIKitTustin Routes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitTustin Routes-umbrella.h"; sourceTree = "<group>"; };
+		4DC8B410C5839F90B51B6BEF83CEE3A2 /* ARConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		4E7491E4065F99FDF09B1BE66B660C78 /* Pods-Titan Routes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Titan Routes-frameworks.sh"; sourceTree = "<group>"; };
+		4FACEED0FD70C423986C2F888E7BED6D /* ARViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5DF353BA4DBE5745E4FA59639167700B /* Pods-Titan Routes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Titan Routes-acknowledgements.plist"; sourceTree = "<group>"; };
+		675E36DF05CCD0DEB71189997AE1294E /* Pods-AdditionalTustin Routes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdditionalTustin Routes-umbrella.h"; sourceTree = "<group>"; };
+		693C7411F3100C9BF487E2E4A25AC2B4 /* Pods-UIKitTustin Routes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKitTustin Routes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DC2767A0F668DE37E63355838AA99A5 /* HDAugmentedReality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-prefix.pch"; sourceTree = "<group>"; };
+		6E3CFF9886DFF7FE36B76A2E5BB778BB /* Pods-UIKitTustin Routes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKitTustin Routes.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		733F0DB4D3346207715D2D37774C85E7 /* Pods-AdditionalTustin Routes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdditionalTustin Routes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		740317EB980CA7FFFA15D1D43B543ED5 /* Pods-UIKitTustin Routes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIKitTustin Routes-dummy.m"; sourceTree = "<group>"; };
+		76AE6AD7279153319848342B4985B883 /* Pods-Titan Routes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Titan Routes"; path = Pods_Titan_Routes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CE131215C37982AEED4D1FF2F4AF85 /* Pods-UIKitTustin Routes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitTustin Routes.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA126985A128D268E019F26C24AEF1F /* HDAugmentedReality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDAugmentedReality.release.xcconfig; sourceTree = "<group>"; };
+		7D1E0CF3E74BF1784671073985F23E47 /* Pods-AdditionalTustin Routes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdditionalTustin Routes.release.xcconfig"; sourceTree = "<group>"; };
+		80511A0285444E1525770C24C02AE62C /* SegmentedIndicatorRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedIndicatorRing.swift; sourceTree = "<group>"; };
+		8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		8F905BB861F1C9759BEBA20A2C7ED84E /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		957D6DAC87D25993640B15F561B9F9B3 /* Pods-CarPlayTustin Routes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarPlayTustin Routes-Info.plist"; sourceTree = "<group>"; };
+		97AB7CA7DCD803D59AF5D174C4A44FE5 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HDAugmentedReality/Resources/Images.xcassets; sourceTree = "<group>"; };
+		9AD952F750AFAEDB3B7CF87714116FE9 /* Pods-Titan Routes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Titan Routes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		9EBE84570F1988C49B93E36249534F5F /* Pods-UIKitTustin Routes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitTustin Routes-Info.plist"; sourceTree = "<group>"; };
+		9FB333AB08923D5E1155B3AD8E7F9806 /* Pods-CarPlayTustin Routes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarPlayTustin Routes.release.xcconfig"; sourceTree = "<group>"; };
+		A1865AF6508050F81D05C0F131FEA0D6 /* Pods-Titan Routes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Titan Routes.modulemap"; sourceTree = "<group>"; };
+		A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		A50C48C45195F2EE6AD9824A5A47DCDF /* Pods-AdditionalTustin Routes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdditionalTustin Routes.modulemap"; sourceTree = "<group>"; };
+		A9A8068D5956FE8FCE5DB56E4D879799 /* ARPresenterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARPresenterTransform.swift; sourceTree = "<group>"; };
+		AB3467AB9C675DF5F0293B616A1D9A39 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		AE3A5B97DFC6AD143C0153F0BFD6578E /* Pods-AdditionalTustin Routes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdditionalTustin Routes-acknowledgements.plist"; sourceTree = "<group>"; };
+		B45700C4001CD6A67D3C324FF14264CA /* Pods-CarPlayTustin Routes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarPlayTustin Routes.debug.xcconfig"; sourceTree = "<group>"; };
+		C036D94D1FABF47654B107BE9D748760 /* Pods-CarPlayTustin Routes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarPlayTustin Routes"; path = Pods_CarPlayTustin_Routes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19EB7ABF94D6E4747F6BF5C3F70DE57 /* Pods-Titan Routes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Titan Routes.debug.xcconfig"; sourceTree = "<group>"; };
+		C22EE66CE4724D8EB5DFBA8EF61D9F7B /* ARPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARPresenter.swift; sourceTree = "<group>"; };
+		C2925D86729FFB7A9700FEFFDDA0B9FF /* Pods-AdditionalTustin Routes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdditionalTustin Routes-Info.plist"; sourceTree = "<group>"; };
+		C3C36F23138D5262001219FECC6CDA0C /* HDAugmentedReality-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-umbrella.h"; sourceTree = "<group>"; };
+		C5A848E98C98E51E0A19B4D4F7EA296C /* Pods-Titan Routes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Titan Routes-dummy.m"; sourceTree = "<group>"; };
+		C5E78089611A5C3ED354F39E1C43A191 /* Pods-CarPlayTustin Routes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarPlayTustin Routes-dummy.m"; sourceTree = "<group>"; };
+		CDA0273496B5208CDA712BC7E4223923 /* ARAnnotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		CEB2FECAD708881295A43CFF24166E43 /* Pods-Titan Routes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Titan Routes-Info.plist"; sourceTree = "<group>"; };
+		D206CE25B800A24823E5AF0F6779CD34 /* ARAccessory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARAccessory.swift; sourceTree = "<group>"; };
+		D335E3E0335642123E3433720A9E4533 /* ARAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		D69FD42FB3862A56DF6337A78F1CAB76 /* Pods-Titan Routes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Titan Routes-resources.sh"; sourceTree = "<group>"; };
+		D7A1094154D82133C7509B00272BC39B /* UIView+utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+utility.swift"; sourceTree = "<group>"; };
+		DAA1E484F25C8F070AF8CE96A09BE6B3 /* HDAugmentedReality-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDAugmentedReality-Info.plist"; sourceTree = "<group>"; };
+		DC6808B12E1ED3E8B67441A6A226092B /* ARTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		DF12FEC2F9BA202C41B215060EB0D437 /* HDAugmentedReality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDAugmentedReality.debug.xcconfig; sourceTree = "<group>"; };
+		E3FB7839DC58A6B4D7FAC7C2CD1D3A96 /* PreciseIndicatorRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreciseIndicatorRing.swift; sourceTree = "<group>"; };
+		E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E795FB4CA526A39F45456AE4DF43702F /* HDAugmentedReality.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDAugmentedReality.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE4DAAF07A539DDE66A3AED0A2C14E92 /* RadarMapViewSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RadarMapViewSupport.swift; sourceTree = "<group>"; };
+		F582DE68117376C40368FF959DCA3086 /* Pods-AdditionalTustin Routes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdditionalTustin Routes-dummy.m"; sourceTree = "<group>"; };
+		F63E6618C68514AEE3F9BFD894FB50F0 /* RadarMapView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RadarMapView.xib; sourceTree = "<group>"; };
+		F7A8ADA50F10D9D66D37E107947A9761 /* Pods-AdditionalTustin Routes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AdditionalTustin Routes"; path = Pods_AdditionalTustin_Routes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		F985B64B7D9D6889364D4ADE3A8F7814 /* Pods-Titan Routes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Titan Routes-umbrella.h"; sourceTree = "<group>"; };
+		FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		FCD7F0F6047F77E8039C13131BABA1BF /* Pods-UIKitTustin Routes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitTustin Routes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF7A2167CCAEF78293D9B058761F730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0AA5440E781F8FF76558ADF089D661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480190683FFA08D3690937F8EDAEBED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781C8F935A6D0A1EA7B1D1AF3F7ECA74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69E3A18D30FED41AD9948A39835E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F57765BD7AB61F2A4BBE4DAAFD4987F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C437E2903A53D5EC1EC24182795507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FC20B5953A7945643535FDA2C2490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2225F13D006B48C6C06A1D1F0D5B3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF355EE0F66489FCF155A36343E5740 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0883B537F1FDF67277437486C4066E63 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E86A34344FF943F078B6064D778D230A /* Base */,
+				A38D68C78C032F2CEEEEED36818D37F0 /* Maps */,
+				6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		08A958EC7DF4C336F90C85695B451F52 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				DC6808B12E1ED3E8B67441A6A226092B /* ARTrackingManager.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		1A7A10B63C23161B266DC16BD68F06BD /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				216CA81C668AAA713309DC3287F98C11 /* ARViewController.xib */,
+				3DFD1CB81CACF86F3F1926619E7D726B /* DebugMapViewController.xib */,
+				97AB7CA7DCD803D59AF5D174C4A44FE5 /* Images.xcassets */,
+				6685672BECDA5F198F1AB88979AA1739 /* Debug */,
+				BFF46362DBF2BE3F335C4B36CCEB713D /* External */,
+				75D45216D35BD0FEF45EF97690500408 /* Main */,
+				C2167B97CB13820CC8EDE4694B27FE4A /* Pod */,
+				69E4C2F4023E3C72915A748D8AE1B68F /* Radar */,
+				81124564492FBE9F8B90CD645EE4EFC7 /* Support Files */,
+			);
+			name = HDAugmentedReality;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */,
+				A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		3FE4CC4B7B0241873FFF96886667937D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				3FE4CC4B7B0241873FFF96886667937D /* Frameworks */,
+				7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */,
+				3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A6DB7815306BC83B5F411016A049E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */,
+				F7A8ADA50F10D9D66D37E107947A9761 /* Pods-AdditionalTustin Routes */,
+				C036D94D1FABF47654B107BE9D748760 /* Pods-CarPlayTustin Routes */,
+				76AE6AD7279153319848342B4985B883 /* Pods-Titan Routes */,
+				1B299390DDA64D91506BB861BE15EA19 /* Pods-UIKitTustin Routes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624CB1CAB07E5368BF87898240CA9871 /* Pods-Titan Routes */ = {
+			isa = PBXGroup;
+			children = (
+				A1865AF6508050F81D05C0F131FEA0D6 /* Pods-Titan Routes.modulemap */,
+				9AD952F750AFAEDB3B7CF87714116FE9 /* Pods-Titan Routes-acknowledgements.markdown */,
+				5DF353BA4DBE5745E4FA59639167700B /* Pods-Titan Routes-acknowledgements.plist */,
+				C5A848E98C98E51E0A19B4D4F7EA296C /* Pods-Titan Routes-dummy.m */,
+				4E7491E4065F99FDF09B1BE66B660C78 /* Pods-Titan Routes-frameworks.sh */,
+				CEB2FECAD708881295A43CFF24166E43 /* Pods-Titan Routes-Info.plist */,
+				D69FD42FB3862A56DF6337A78F1CAB76 /* Pods-Titan Routes-resources.sh */,
+				F985B64B7D9D6889364D4ADE3A8F7814 /* Pods-Titan Routes-umbrella.h */,
+				C19EB7ABF94D6E4747F6BF5C3F70DE57 /* Pods-Titan Routes.debug.xcconfig */,
+				3F61928426F821A71501620EA0AF6BBC /* Pods-Titan Routes.release.xcconfig */,
+			);
+			name = "Pods-Titan Routes";
+			path = "Target Support Files/Pods-Titan Routes";
+			sourceTree = "<group>";
+		};
+		6685672BECDA5F198F1AB88979AA1739 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				1A1356D949C39D65A1AAFA74D457E334 /* DebugMapViewController.swift */,
+			);
+			name = Debug;
+			path = HDAugmentedReality/Classes/Debug;
+			sourceTree = "<group>";
+		};
+		69E4C2F4023E3C72915A748D8AE1B68F /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7839DC58A6B4D7FAC7C2CD1D3A96 /* PreciseIndicatorRing.swift */,
+				12C8018418A1FF91731170F1EC7E4D56 /* RadarMapView.swift */,
+				F63E6618C68514AEE3F9BFD894FB50F0 /* RadarMapView.xib */,
+				EE4DAAF07A539DDE66A3AED0A2C14E92 /* RadarMapViewSupport.swift */,
+				80511A0285444E1525770C24C02AE62C /* SegmentedIndicatorRing.swift */,
+			);
+			name = Radar;
+			path = HDAugmentedReality/Classes/Radar;
+			sourceTree = "<group>";
+		};
+		6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */,
+				9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		7302F5FFFBCA9DEBDA9DD5447BF32812 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4C82C9970EA8B3F6A03712546CEB742A /* ARMath.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		75D45216D35BD0FEF45EF97690500408 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D206CE25B800A24823E5AF0F6779CD34 /* ARAccessory.swift */,
+				4DC8B410C5839F90B51B6BEF83CEE3A2 /* ARConfiguration.swift */,
+				4FACEED0FD70C423986C2F888E7BED6D /* ARViewController.swift */,
+				9192B98372FC8D739D7C4343CDEEB5D2 /* Annotations */,
+				75E6F1B2FD60EF1C8C5F5B0C76757A6B /* Presenter */,
+				08A958EC7DF4C336F90C85695B451F52 /* Tracking */,
+				7302F5FFFBCA9DEBDA9DD5447BF32812 /* Utility */,
+			);
+			name = Main;
+			path = HDAugmentedReality/Classes/Main;
+			sourceTree = "<group>";
+		};
+		75E6F1B2FD60EF1C8C5F5B0C76757A6B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C22EE66CE4724D8EB5DFBA8EF61D9F7B /* ARPresenter.swift */,
+				A9A8068D5956FE8FCE5DB56E4D879799 /* ARPresenterTransform.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81124564492FBE9F8B90CD645EE4EFC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A3110ED1C0CA3AE2B64DE5C2ED24B0 /* HDAugmentedReality.modulemap */,
+				19E4665584ADDBDD92FB125EC23E6E36 /* HDAugmentedReality-dummy.m */,
+				DAA1E484F25C8F070AF8CE96A09BE6B3 /* HDAugmentedReality-Info.plist */,
+				6DC2767A0F668DE37E63355838AA99A5 /* HDAugmentedReality-prefix.pch */,
+				C3C36F23138D5262001219FECC6CDA0C /* HDAugmentedReality-umbrella.h */,
+				DF12FEC2F9BA202C41B215060EB0D437 /* HDAugmentedReality.debug.xcconfig */,
+				7BA126985A128D268E019F26C24AEF1F /* HDAugmentedReality.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/HDAugmentedReality";
+			sourceTree = "<group>";
+		};
+		9192B98372FC8D739D7C4343CDEEB5D2 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				D335E3E0335642123E3433720A9E4533 /* ARAnnotation.swift */,
+				CDA0273496B5208CDA712BC7E4223923 /* ARAnnotationView.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		9393BB801444EBC4F0F4D5A141CB3BCA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7A10B63C23161B266DC16BD68F06BD /* HDAugmentedReality */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A38D68C78C032F2CEEEEED36818D37F0 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E435AD63DBCE250679648002DC9F8442 /* Frameworks */,
+				FAF4CAFF608973234241B6D824C4FC0F /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		BFF46362DBF2BE3F335C4B36CCEB713D /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8F905BB861F1C9759BEBA20A2C7ED84E /* CameraView.swift */,
+				AB3467AB9C675DF5F0293B616A1D9A39 /* TouchView.swift */,
+				D7A1094154D82133C7509B00272BC39B /* UIView+utility.swift */,
+			);
+			name = External;
+			path = HDAugmentedReality/Classes/External;
+			sourceTree = "<group>";
+		};
+		C2167B97CB13820CC8EDE4694B27FE4A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E795FB4CA526A39F45456AE4DF43702F /* HDAugmentedReality.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9393BB801444EBC4F0F4D5A141CB3BCA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E858A99A3564099E88E4CF05F26A517D /* Pods */,
+				5A6DB7815306BC83B5F411016A049E9A /* Products */,
+				DC908DD190A0125DEA421D2F1D6DB937 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC908DD190A0125DEA421D2F1D6DB937 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF1F0A78CB075E4F117E79DC55A91C /* Pods-AdditionalTustin Routes */,
+				EB26D2A8CAB75C0AE01E78D01DE85CBC /* Pods-CarPlayTustin Routes */,
+				624CB1CAB07E5368BF87898240CA9871 /* Pods-Titan Routes */,
+				F5DA49DF55CCE4E5BD38E232D793726B /* Pods-UIKitTustin Routes */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E435AD63DBCE250679648002DC9F8442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */,
+				23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E858A99A3564099E88E4CF05F26A517D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0883B537F1FDF67277437486C4066E63 /* GoogleMaps */,
+				446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E86A34344FF943F078B6064D778D230A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EB26D2A8CAB75C0AE01E78D01DE85CBC /* Pods-CarPlayTustin Routes */ = {
+			isa = PBXGroup;
+			children = (
+				084EF2649A7A09A609DA25D04F419D6F /* Pods-CarPlayTustin Routes.modulemap */,
+				24DE4B9AC4E34918EC900C22D5610F95 /* Pods-CarPlayTustin Routes-acknowledgements.markdown */,
+				3EF70DD649E2E02224EABC41F8D3AD68 /* Pods-CarPlayTustin Routes-acknowledgements.plist */,
+				C5E78089611A5C3ED354F39E1C43A191 /* Pods-CarPlayTustin Routes-dummy.m */,
+				957D6DAC87D25993640B15F561B9F9B3 /* Pods-CarPlayTustin Routes-Info.plist */,
+				1761A126337AFCD3667F1C9C72C76B65 /* Pods-CarPlayTustin Routes-umbrella.h */,
+				B45700C4001CD6A67D3C324FF14264CA /* Pods-CarPlayTustin Routes.debug.xcconfig */,
+				9FB333AB08923D5E1155B3AD8E7F9806 /* Pods-CarPlayTustin Routes.release.xcconfig */,
+			);
+			name = "Pods-CarPlayTustin Routes";
+			path = "Target Support Files/Pods-CarPlayTustin Routes";
+			sourceTree = "<group>";
+		};
+		EFAF1F0A78CB075E4F117E79DC55A91C /* Pods-AdditionalTustin Routes */ = {
+			isa = PBXGroup;
+			children = (
+				A50C48C45195F2EE6AD9824A5A47DCDF /* Pods-AdditionalTustin Routes.modulemap */,
+				733F0DB4D3346207715D2D37774C85E7 /* Pods-AdditionalTustin Routes-acknowledgements.markdown */,
+				AE3A5B97DFC6AD143C0153F0BFD6578E /* Pods-AdditionalTustin Routes-acknowledgements.plist */,
+				F582DE68117376C40368FF959DCA3086 /* Pods-AdditionalTustin Routes-dummy.m */,
+				C2925D86729FFB7A9700FEFFDDA0B9FF /* Pods-AdditionalTustin Routes-Info.plist */,
+				675E36DF05CCD0DEB71189997AE1294E /* Pods-AdditionalTustin Routes-umbrella.h */,
+				120D994EDA02D40DE7A892753F03EB27 /* Pods-AdditionalTustin Routes.debug.xcconfig */,
+				7D1E0CF3E74BF1784671073985F23E47 /* Pods-AdditionalTustin Routes.release.xcconfig */,
+			);
+			name = "Pods-AdditionalTustin Routes";
+			path = "Target Support Files/Pods-AdditionalTustin Routes";
+			sourceTree = "<group>";
+		};
+		F5DA49DF55CCE4E5BD38E232D793726B /* Pods-UIKitTustin Routes */ = {
+			isa = PBXGroup;
+			children = (
+				6E3CFF9886DFF7FE36B76A2E5BB778BB /* Pods-UIKitTustin Routes.modulemap */,
+				693C7411F3100C9BF487E2E4A25AC2B4 /* Pods-UIKitTustin Routes-acknowledgements.markdown */,
+				1E61DAB7A21447D0BDC276C5EE707142 /* Pods-UIKitTustin Routes-acknowledgements.plist */,
+				740317EB980CA7FFFA15D1D43B543ED5 /* Pods-UIKitTustin Routes-dummy.m */,
+				9EBE84570F1988C49B93E36249534F5F /* Pods-UIKitTustin Routes-Info.plist */,
+				4CE05C946304F5D9704BCBC746B49A86 /* Pods-UIKitTustin Routes-umbrella.h */,
+				77CE131215C37982AEED4D1FF2F4AF85 /* Pods-UIKitTustin Routes.debug.xcconfig */,
+				FCD7F0F6047F77E8039C13131BABA1BF /* Pods-UIKitTustin Routes.release.xcconfig */,
+			);
+			name = "Pods-UIKitTustin Routes";
+			path = "Target Support Files/Pods-UIKitTustin Routes";
+			sourceTree = "<group>";
+		};
+		FAF4CAFF608973234241B6D824C4FC0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6427A75F453D5C7BC436BAA58FCB4A07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8E8804E58366F3091F29D94A95CBE8 /* Pods-Titan Routes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3A66F45F6D04551789CF8CC560675A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C42BCB8185772B214DC7E445C639A4 /* Pods-CarPlayTustin Routes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E31919569B83FFF7080DA1FF5631CB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902270B9CE38FEAC406373BFFFED3C17 /* Pods-UIKitTustin Routes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3046017A97D49C5B07E94053EED7FAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C4EF2052AD2007E18854ACCFD949FB /* HDAugmentedReality-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3DD15D83E399BAACE5D43491500871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F16AF23F2A03C38429948A22A961EC /* Pods-AdditionalTustin Routes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4744937D6FA8C254B2D2739DCA2DBE /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */;
+			buildPhases = (
+				A3046017A97D49C5B07E94053EED7FAB /* Headers */,
+				36E4887BB8B31BCDCB088D035B9AF9AF /* Sources */,
+				F2225F13D006B48C6C06A1D1F0D5B3B1 /* Frameworks */,
+				AADF22FAE72FE433BAD0352425252122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDAugmentedReality;
+			productName = HDAugmentedReality;
+			productReference = 2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FFD2BFB5E0BDEF9D33552B2DC9E0EC7 /* Pods-AdditionalTustin Routes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68211B78DE5E3C6D6DA56DF38DB98AE /* Build configuration list for PBXNativeTarget "Pods-AdditionalTustin Routes" */;
+			buildPhases = (
+				DF3DD15D83E399BAACE5D43491500871 /* Headers */,
+				2CCE086E57858DD5F1C2D5C403DBAE07 /* Sources */,
+				4C69E3A18D30FED41AD9948A39835E42 /* Frameworks */,
+				B890B73908617BC74011952BD32FF503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdditionalTustin Routes";
+			productName = Pods_AdditionalTustin_Routes;
+			productReference = F7A8ADA50F10D9D66D37E107947A9761 /* Pods-AdditionalTustin Routes */;
+			productType = "com.apple.product-type.framework";
+		};
+		508A964DFE8D7568EAD9AF8BF3B735BB /* Pods-Titan Routes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766668730EE6BF55B1BEA69B14C5C315 /* Build configuration list for PBXNativeTarget "Pods-Titan Routes" */;
+			buildPhases = (
+				6427A75F453D5C7BC436BAA58FCB4A07 /* Headers */,
+				257D76215CDB3FFDD9201A24C245B584 /* Sources */,
+				D5C437E2903A53D5EC1EC24182795507 /* Frameworks */,
+				04B71B6E513566F6A07442C7C52569C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F1DAFC1FE3033B45354AA74229EB2F /* PBXTargetDependency */,
+				67C85A8938FB595EA5628862859CD817 /* PBXTargetDependency */,
+				660286E42A2D9CBC71CDF0BC44EE4AE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Titan Routes";
+			productName = Pods_Titan_Routes;
+			productReference = 76AE6AD7279153319848342B4985B883 /* Pods-Titan Routes */;
+			productType = "com.apple.product-type.framework";
+		};
+		92886E6B0114F5A4AA6FBF0BA982E322 /* Pods-CarPlayTustin Routes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BCC5AB41604687CE6599BCEA3DA8CD /* Build configuration list for PBXNativeTarget "Pods-CarPlayTustin Routes" */;
+			buildPhases = (
+				8C3A66F45F6D04551789CF8CC560675A /* Headers */,
+				AFD75D610987C56BB364A78D918CC2C2 /* Sources */,
+				480190683FFA08D3690937F8EDAEBED4 /* Frameworks */,
+				EF120E164F4753DBA8B99014BB05CADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarPlayTustin Routes";
+			productName = Pods_CarPlayTustin_Routes;
+			productReference = C036D94D1FABF47654B107BE9D748760 /* Pods-CarPlayTustin Routes */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBDCF112E5BE1355368B1BABDCE0C826 /* Pods-UIKitTustin Routes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BADC4AFB2A32B23BDE9A17C156E07A0 /* Build configuration list for PBXNativeTarget "Pods-UIKitTustin Routes" */;
+			buildPhases = (
+				9E31919569B83FFF7080DA1FF5631CB7 /* Headers */,
+				1962B7641E965A1D988DE3DA6405E121 /* Sources */,
+				3EF7A2167CCAEF78293D9B058761F730 /* Frameworks */,
+				A3A748727F203408F627298B1FCADCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIKitTustin Routes";
+			productName = Pods_UIKitTustin_Routes;
+			productReference = 1B299390DDA64D91506BB861BE15EA19 /* Pods-UIKitTustin Routes */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A6DB7815306BC83B5F411016A049E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */,
+				4FFD2BFB5E0BDEF9D33552B2DC9E0EC7 /* Pods-AdditionalTustin Routes */,
+				92886E6B0114F5A4AA6FBF0BA982E322 /* Pods-CarPlayTustin Routes */,
+				508A964DFE8D7568EAD9AF8BF3B735BB /* Pods-Titan Routes */,
+				EBDCF112E5BE1355368B1BABDCE0C826 /* Pods-UIKitTustin Routes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B71B6E513566F6A07442C7C52569C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A748727F203408F627298B1FCADCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADF22FAE72FE433BAD0352425252122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA6D5200A9CA082C46C6735AEAD2892 /* ARViewController.xib in Resources */,
+				6D7C882F5FBF90EE57FAF07B033C7155 /* DebugMapViewController.xib in Resources */,
+				A601D52EF7E1D7F672B26C8581CAE5B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B890B73908617BC74011952BD32FF503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF120E164F4753DBA8B99014BB05CADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1962B7641E965A1D988DE3DA6405E121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDEBBE1F82F14F64C29D4A23C0DDE4E /* Pods-UIKitTustin Routes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257D76215CDB3FFDD9201A24C245B584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D7C513EA9D998CE29EFC0D925D0579 /* Pods-Titan Routes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCE086E57858DD5F1C2D5C403DBAE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583FA6E33E7F0739AB8D12B77D94F09C /* Pods-AdditionalTustin Routes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E4887BB8B31BCDCB088D035B9AF9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A37E0DC0028E131FFD490AAE43CC55 /* ARAccessory.swift in Sources */,
+				E60A475E2E3F3774E78BC459F13F7F94 /* ARAnnotation.swift in Sources */,
+				635E49951ECFCA21563A9C2B64DAD70C /* ARAnnotationView.swift in Sources */,
+				6108BF1764E5DE9DABF54B876F252356 /* ARConfiguration.swift in Sources */,
+				EE0D29964407334A46714CB56D65F3C0 /* ARMath.swift in Sources */,
+				D8CD0F8C3A2762CF7A6898203601A53C /* ARPresenter.swift in Sources */,
+				6AA8991E9D1A32F1C27C0F642510D6EC /* ARPresenterTransform.swift in Sources */,
+				CD795A8E67C7A6B6744BFDE17040DB47 /* ARTrackingManager.swift in Sources */,
+				E9BBE97209C24E8B26A27D643117DFA5 /* ARViewController.swift in Sources */,
+				0B76938E13A8B4A2F946AC8BD2883DE7 /* CameraView.swift in Sources */,
+				F38CEA0920F0EB89A3EAF7AEBA198902 /* DebugMapViewController.swift in Sources */,
+				F801E38928789417FCF3E1AFA61F4BAA /* HDAugmentedReality-dummy.m in Sources */,
+				8C87373F5ED443249E9BEF7A44C9424C /* PreciseIndicatorRing.swift in Sources */,
+				3581C7960AD7BB2E0CC6E4377C3E8142 /* RadarMapView.swift in Sources */,
+				36A10A76847FC3F7F7EE982AB573AE89 /* RadarMapView.xib in Sources */,
+				663ABBAAF1378B21FA5068E1A510089F /* RadarMapViewSupport.swift in Sources */,
+				5636EB022F2A5A4BA41FC7A8765CF7E3 /* SegmentedIndicatorRing.swift in Sources */,
+				117B80B180B674EADF38DB3B7E1126F0 /* TouchView.swift in Sources */,
+				5C3B0A996DA5606F612B0527A87D280D /* UIView+utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD75D610987C56BB364A78D918CC2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A35B6E70FE06C0C9429D093E7FF7AE /* Pods-CarPlayTustin Routes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660286E42A2D9CBC71CDF0BC44EE4AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDAugmentedReality;
+			target = 3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */;
+			targetProxy = 186EBDE19C13C04C7EA3F88D741FDC15 /* PBXContainerItemProxy */;
+		};
+		67C85A8938FB595EA5628862859CD817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 516163825081F90D248548D079DB2195 /* PBXContainerItemProxy */;
+		};
+		97F1DAFC1FE3033B45354AA74229EB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 704A48BCBFA8D6875ACE942B43A7FD1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2248E6D1E092E33789F407D7FFA0DB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1E0CF3E74BF1784671073985F23E47 /* Pods-AdditionalTustin Routes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdditionalTustin Routes/Pods-AdditionalTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdditionalTustin Routes/Pods-AdditionalTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		470DD8F48611C15C0EFC69E9141A38CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120D994EDA02D40DE7A892753F03EB27 /* Pods-AdditionalTustin Routes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdditionalTustin Routes/Pods-AdditionalTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdditionalTustin Routes/Pods-AdditionalTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC9F2A3F80EEB104247DC07D2D42E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD7F0F6047F77E8039C13131BABA1BF /* Pods-UIKitTustin Routes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKitTustin Routes/Pods-UIKitTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKitTustin Routes/Pods-UIKitTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65599E2D07B4766B7B9C845F6985D4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB333AB08923D5E1155B3AD8E7F9806 /* Pods-CarPlayTustin Routes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarPlayTustin Routes/Pods-CarPlayTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarPlayTustin Routes/Pods-CarPlayTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88BF77687BFC2BC2FB3F8F329A47B311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A4E33172ABBA26B0F5484F28475ADE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45700C4001CD6A67D3C324FF14264CA /* Pods-CarPlayTustin Routes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarPlayTustin Routes/Pods-CarPlayTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarPlayTustin Routes/Pods-CarPlayTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A8C2D4B210C9557A698EFEBB4719DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CE131215C37982AEED4D1FF2F4AF85 /* Pods-UIKitTustin Routes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIKitTustin Routes/Pods-UIKitTustin Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIKitTustin Routes/Pods-UIKitTustin Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA29B5B1BBEDEF53682042A1B41980E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19EB7ABF94D6E4747F6BF5C3F70DE57 /* Pods-Titan Routes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Titan Routes/Pods-Titan Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Titan Routes/Pods-Titan Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB9F138D6BE5B0B420804AA4F837BD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDCD52F7E3BD5133EDA68905B540AA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F61928426F821A71501620EA0AF6BBC /* Pods-Titan Routes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Titan Routes/Pods-Titan Routes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Titan Routes/Pods-Titan Routes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC7F8BCF16555AA34622691DA12CB5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF12FEC2F9BA202C41B215060EB0D437 /* HDAugmentedReality.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				PRODUCT_MODULE_NAME = HDAugmentedReality;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2C5D149DE277CA85397A039B337B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E61F00B4A7BB0CA34CB34175F55C3077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA126985A128D268E019F26C24AEF1F /* HDAugmentedReality.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				PRODUCT_MODULE_NAME = HDAugmentedReality;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAD95AA7CDFAD96FA4035B88B54EA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BADC4AFB2A32B23BDE9A17C156E07A0 /* Build configuration list for PBXNativeTarget "Pods-UIKitTustin Routes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8C2D4B210C9557A698EFEBB4719DA6 /* Debug */,
+				4BC9F2A3F80EEB104247DC07D2D42E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9F138D6BE5B0B420804AA4F837BD74 /* Debug */,
+				FAD95AA7CDFAD96FA4035B88B54EA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766668730EE6BF55B1BEA69B14C5C315 /* Build configuration list for PBXNativeTarget "Pods-Titan Routes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA29B5B1BBEDEF53682042A1B41980E /* Debug */,
+				BDCD52F7E3BD5133EDA68905B540AA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C5D149DE277CA85397A039B337B44C /* Debug */,
+				88BF77687BFC2BC2FB3F8F329A47B311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BCC5AB41604687CE6599BCEA3DA8CD /* Build configuration list for PBXNativeTarget "Pods-CarPlayTustin Routes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4E33172ABBA26B0F5484F28475ADE3 /* Debug */,
+				65599E2D07B4766B7B9C845F6985D4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68211B78DE5E3C6D6DA56DF38DB98AE /* Build configuration list for PBXNativeTarget "Pods-AdditionalTustin Routes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470DD8F48611C15C0EFC69E9141A38CA /* Debug */,
+				2248E6D1E092E33789F407D7FFA0DB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4744937D6FA8C254B2D2739DCA2DBE /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F8BCF16555AA34622691DA12CB5CE /* Debug */,
+				E61F00B4A7BB0CA34CB34175F55C3077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

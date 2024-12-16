@@ -1,0 +1,6 @@
+framework module Pods_CarPlayTustin_Routes {
+  umbrella header "Pods-CarPlayTustin Routes-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Engineering",
+        "floor": 5,
+        "classes": "110, 120, 550"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -117.883434,
+              33.88251
+            ],
+            [
+              -117.883204,
+              33.882515
+            ],
+            [
+              -117.883199,
+              33.882133
+            ],
+            [
+              -117.883428,
+              33.88213
+            ],
+            [
+              -117.883434,
+              33.88251
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "e875a31e91f09d68971085db7d4ea2ac"
+    }
+  ],
+  "type": "FeatureCollection"
+}

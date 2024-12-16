@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-249769907030-ios-50939b9d3a350ab9f73cf7</string>
+			</array>
+		</dict>
+	</array>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1IjoiYWxpa2hhbGVkIiwiYSI6ImNtMHZqejQyNjFpdmgycm9pZjhpdjZ3M2EifQ.TCysrVw9EIWL71W1_1m1dg</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key></key>
+		<false/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsUsageDescription</key>
+		<dict/>
+	</dict>
+	<key>OneSignal_app_groups_key</key>
+	<string>group.com.navapp.csuf</string>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Pollak Library",
+        "floor": ""
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -117.885772,
+              33.882148
+            ],
+            [
+              -117.885744,
+              33.880873
+            ],
+            [
+              -117.884948,
+              33.880857
+            ],
+            [
+              -117.884986,
+              33.882156
+            ],
+            [
+              -117.885772,
+              33.882148
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "7aabda01d182e30572ccefdb60fefca9"
+    }
+  ],
+  "type": "FeatureCollection"
+}
